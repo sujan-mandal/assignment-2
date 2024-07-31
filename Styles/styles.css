@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   max-width: 1440px;
   margin: auto;
 }
@@ -641,7 +641,6 @@ select {
 .footer-section {
   display: flex;
   gap: 200px;
-  background-color: rgb(41, 41, 41);
   margin-top: 88px;
   justify-content: space-around;
   padding: 66px;
@@ -680,11 +679,13 @@ select {
   margin-bottom: 20px;
 }
 
+footer{
+  background-color: rgb(41, 41, 41);
+}
+
 footer hr{
   width: auto;
   border: 2px solid rgba(255, 255, 255, 0.1);
-  left: 189px;
-  top: 394px;
   margin-left: 150px;
   margin-right: 150px;
 
